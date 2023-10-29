@@ -24,7 +24,7 @@ public class TestLfBankApplication {
     }
 
     public static void main(String[] args) {
-        SpringApplication.from(LfBankApplication::main).with(TestLfBankApplication.class).run(args);
+        SpringApplication.from(Application::main).with(TestLfBankApplication.class).run(args);
     }
 
 }
